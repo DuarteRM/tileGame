@@ -1,0 +1,97 @@
+body{
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+#contentor{
+	position: relative;
+	margin: auto;
+	padding: 5px;
+	width: 520px;
+	background-color: gray;
+	overflow: hidden;
+}
+
+
+.header{
+	margin: 10px;
+	padding: 10px;	
+	clear:both;
+	background-color: white; /*#800000;*/
+	min-height: 40px; 
+	line-height: 40px;
+	overflow: hidden;
+}
+
+#gameForm div *{
+	display: inline-block;
+	vertical-align: center;
+}
+
+#gameForm label{
+	text-align: right;
+	display: inline-block;
+	width: 120px;
+}
+#gameForm input{
+	width: 30px;
+}
+#gameForm span{
+	width: 310px;
+}
+
+#gameForm div:last-child{
+	text-align: center;
+}
+
+#gameForm input[type="button"]{
+	width: 200px;
+	height: 40px;
+}
+
+/*Duas classes usadas para definir a formatação das mensagens de erro*/
+.error, .msgErro{
+	color: red;
+	font-style: italic;
+	font-size: small;
+}
+
+#gameScore div{
+	display: inline-block;
+	float: right;
+	padding-left: 5px;
+	padding-right: 15px;
+}
+
+#gameScore div:first-child{
+	float: left;
+}
+
+#gameScore div span:last-child{
+	font-weight: bold;
+}
+
+#main{
+	margin: 10px;
+	padding: 10px;	
+	clear: right;
+	background-color: white;
+}
+
+#main table{
+	margin: auto;
+}
+
+#main div:last-child{
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+	margin-top: 15px;
+}
+
+
+
+
